@@ -1,0 +1,127 @@
+.home {
+  overflow-x: hidden;
+}
+
+.hero {
+  background: linear-gradient(135deg, #003366 0%, #0066b3 100%);
+  color: white;
+  padding: 60px 0 50px 0;
+  text-align: center;
+}
+
+.update-tag {
+  color: #ffcc00;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.hero h1 span {
+  font-weight: 700;
+  color: #ffcc00;
+}
+
+.subhead {
+  font-size: 1.2rem;
+  color: #e6f0ff;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.features-section,
+.plans-section {
+  padding: 80px 0;
+}
+
+.features-section {
+  background: white;
+}
+
+.plans-section {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e6eef9 100%);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.cta-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #003366 0%, #0066b3 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-section h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.cta-section h2 span {
+  color: #ffcc00;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  color: #e6f0ff;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-primary,
+.cta-secondary {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-primary {
+  background: #ffcc00;
+  color: #003366;
+}
+
+.cta-primary:hover {
+  background: #ffd633;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(255,204,0,0.3);
+}
+
+.cta-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.cta-secondary:hover {
+  background: white;
+  color: #0066b3;
+}
